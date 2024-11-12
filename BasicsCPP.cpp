@@ -37,7 +37,7 @@ void display(){
 cout << "name: "<<name <<" id: "<<id<<" cgpa: "<<cgpa;
 }
 
-void setCgpa(double cgpa){
+void setCgpa(double         cgpa){
 
 if(cgpa <= 4){
     this->cgpa = cgpa;

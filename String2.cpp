@@ -11,19 +11,19 @@ int main(){
     //concatinating int with String
     //to_string method to convert int to string
 
-string str1 = "Data Structure";
+/*string str1 = "Data Structure";
 string str2 = "Algorithm";
 
 string str3 = str1 + " and " + str2 + " - "+ to_string(2);
 cout << "course name: " << str3 << endl;
 
-
+*/
 
 
 //inserting substring
 //original string
 
-string original_str = "!!!Hello!!!";
+string original_str = "Hello!!!";
 
 //insert "world" after "Hello"
 string s1 = "Hello";
@@ -31,6 +31,7 @@ string s2 = " world";
 
 //step-1 find the starting index of "Hello" -> s1
 int idx = original_str.find(s1);
+cout << idx;
 
 //length of the string
 int len = s1.length();

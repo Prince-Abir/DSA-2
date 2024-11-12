@@ -14,6 +14,8 @@ vkt.push_back(8);
 vkt.push_back(6);
 vkt.push_back(14);
 
+vkt.emplace_back(15);
+
 
 int size = vkt.size();
 cout << "Total Size: "<<size <<endl;
@@ -26,7 +28,7 @@ vkt.insert(vkt.begin(),21);
 vkt.insert(vkt.begin()+3,32);
 
 //delete a element in specific index
-vkt.erase(vkt.begin()+3);
+//vkt.erase(vkt.begin()+3);
 
 for(int x:vkt)cout<<x <<endl;
 
